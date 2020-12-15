@@ -1,0 +1,13 @@
+# yml基本语法 k: v
+server:
+  port: 8081
+
+
+#person:
+#  name: 张旭辉
+#  age: 28
+#  map: {k1: v1,k2: v2}
+#  list:
+#    - good
+#    - beset
+#  dog: {name: 旺财,age: 2}

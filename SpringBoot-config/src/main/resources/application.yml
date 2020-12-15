@@ -11,3 +11,7 @@ server:
 #    - good
 #    - beset
 #  dog: {name: 旺财,age: 2}
+---
+#文档块
+---
+

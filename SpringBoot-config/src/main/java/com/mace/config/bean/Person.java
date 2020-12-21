@@ -1,5 +1,6 @@
 package com.mace.config.bean;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
@@ -24,10 +25,11 @@ import java.util.Map;
  * @ImportResource 导入Spring的配置文件
  */
 @Component
-@ConfigurationProperties(prefix = "person")
+//@ConfigurationProperties(prefix = "person")
 //@Validated
 public class Person {
     //@NotNull
+    @Value("荒野镖客")
     private String name;
     //@Email
     private int age;

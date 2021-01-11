@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "city",
+      "type": "com.mace.config.bean.City",
+      "sourceType": "com.mace.config.bean.City"
+    }
+  ],
+  "properties": [
+    {
+      "name": "city.address",
+      "type": "java.lang.String",
+      "sourceType": "com.mace.config.bean.City"
+    },
+    {
+      "name": "city.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mace.config.bean.City"
+    },
+    {
+      "name": "city.name",
+      "type": "java.lang.String",
+      "sourceType": "com.mace.config.bean.City"
+    },
+    {
+      "name": "city.path",
+      "type": "java.lang.String",
+      "sourceType": "com.mace.config.bean.City"
+    }
+  ],
+  "hints": []
+}

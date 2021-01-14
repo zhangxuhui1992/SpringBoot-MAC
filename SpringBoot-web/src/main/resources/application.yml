@@ -1,0 +1,11 @@
+server:
+  port: 9091
+
+#rest风格过滤器开启，默认为false
+#在表单中定义name="_method" value="delete"等除post/get外的请求方式时，
+#将会正常发送delete/put等请求，此时表单的提交方式应该外post。
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
